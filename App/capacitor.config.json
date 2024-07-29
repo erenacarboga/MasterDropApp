@@ -1,0 +1,16 @@
+{
+	"appId": "com.masterdrop.app",
+	"appName": "MasterDrop Portal",
+	"webDir": "build",
+	"bundledWebRuntime": false,
+	"server": {
+		"url": "https://app.masterdrop.co",
+		"cleartext": true
+	},
+	"packageClassList": [
+		"SafeAreaPlugin",
+		"HapticsPlugin",
+		"LocalNotificationsPlugin",
+		"PushNotificationsPlugin"
+	]
+}
